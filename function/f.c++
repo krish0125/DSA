@@ -26,6 +26,11 @@
 
 
 
+
+
+
+
+
 // void printA(){
 
 //     cout << " inside A : " << endl; 
@@ -222,3 +227,130 @@
 
 // }
 
+
+
+// find a circle area 
+
+
+// #include<iostream>
+// using namespace std;
+// float findarea(float r)
+
+// {
+
+//      float sum = 3.14 * r * r;
+//      return sum;
+
+
+// }
+
+
+// int main()
+// {
+
+//     float area;
+//     cin >> area;
+     
+
+//     float circle = findarea(area);
+//     cout << circle << endl;
+
+    
+//     return 0;
+// }
+
+
+
+
+// convert km to miles 
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     float a;
+//     cout << "Enter a km value :" << endl ;
+//     cin >> a;
+    
+//     float convert = a * .621371;
+
+//     cout << "Miles value is :" << convert << endl;
+
+//     return 0;
+// }
+
+
+// float  converted (float a){
+//     float conver = a * .62;
+//     return conver;
+// }
+
+// int main (){
+//     // float km;
+//     // cout << "enter km value : " << endl;
+//     // cin >> km ;
+
+// //     float conver = converted(6);
+
+// //     cout << conver<< endl;
+// // }
+
+//  float conver =converted(8);
+//  cout << conver << endl;
+// }
+
+
+
+
+// n number to digit formate 
+
+
+// #include<iostream>
+// using namespace std;
+
+// int printname(int print){
+
+//     int num =0 ;
+//     for(int i=0;i<print;i++){
+//         cout << "Enter digit:" << endl;
+//         int digit;
+//         cin >> digit;
+//         num = num*10 +digit;
+//     }
+
+//     return num;
+// }
+
+
+// int main(){
+
+//     int n;
+    
+//     cin >> n;
+//     int num = printname(n);
+//     cout << num << endl;
+
+
+// }   
+
+// finonacci series 
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int num,first=0,second=1,next;
+//     cout << "Enter a number : ";
+//     cin >> num;
+
+//     for(int i=0;i<num;i++){
+
+//         cout << first ;
+//         next = first + second;
+//         first = second;
+//         second = next;
+//     }
+//     return 0;
+
+// }
