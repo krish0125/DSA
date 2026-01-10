@@ -52,34 +52,35 @@
 
 // // pattern printing!
 
-// // #include<iostream>
-// // using namespace std;
-// // int main(){
-// //     int Rows;
-// //     cout << "Enter number of rows: ";
-// //     cin >> Rows;
-// //     int cols;
-// //     cout << "Enter number of cols: ";   
-// //     cin >> cols;
-// //     for(int row=0;row<Rows;row++){
-// //         for(int col =0;col<cols;col++){
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int Rows;
+//     cout << "Enter number of rows: ";
+//     cin >> Rows;
+//     int cols;
+//     cout << "Enter number of cols: ";   
+//     cin >> cols;
+//     for(int row=0;row<Rows;row++){
+//         for(int col =0;col<cols;col++){
 
-// //             if(row==0|| row==Rows-1){
-// //                 cout << "* ";
-// //             }
-// //             else{
-// //                 if(col==0 || col==cols-1){
-// //                     cout <<"* ";
+//             if(row==0|| row==Rows-1){
+//                 cout << "* ";
+//             }
+//             else{
+//                 if(col==0 || col==cols-1){
+//                     cout <<"* ";
 
-// //                 }else{
-// //                     cout << "  ";
+//                 }else{
+//                     cout << "  ";
 
-// //                 }
-// //             }
-// //         }
-// //         cout << endl;
+//                 }
+//             }
+//         }
+//         cout << endl;
 
-// //     }
+//     }
+// }
 // // }
 
 
