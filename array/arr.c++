@@ -27,10 +27,36 @@ int main(){
 
 //-->address of first element of array
 
-int a = 10;
-cout << "Address of a : " << &a << endl;
+//--> address find element
+// int a = 10;
+// cout << "Address of a : " << &a << endl;
+// int arr[5];
+// cout << "Address of first element of arr : " << &arr[0] << endl;
 
-int arr[5];
-cout << "Address of first element of arr : " << &arr[0] << endl;
+// --> size of array
+// int grr[10];
+// cout << "size of grr is : " << sizeof(grr) << endl;
+
+
+/// -->>  Array initialization --> very most important topc for array consept:
+
+// int arr[5] = {1,2,3,4,5}; // method 1
+// int drr[]  = {6,7,8,9,10}; // method 2
+// int wrr[5] = {11,12}; // method 3
+// int urr[2] = {1,2,5,4,6}; // method 4 --> not memory space have required for 5,4,6 elements so this method is wrong
+
+
+// -- >> this initializer is a bad practics for appy in your qus sloving: because any compailer have error show :
+// int n;
+// cout << "Enter a number of elements: ";
+// cin >> n;
+// int arr[n];
+// cout << "Array initialized successfully :" << endl;
+
+
+//#-->> indexing in Array :->
+
+
+
  
 }
