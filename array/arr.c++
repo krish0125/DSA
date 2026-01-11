@@ -54,9 +54,57 @@ int main(){
 // cout << "Array initialized successfully :" << endl;
 
 
-//#-->> indexing in Array :->
+//#-->> indexing in Array :-> 0-based indexing is a rule for indexing in array menas first element index is 0 , second element index is 1 and so on...
+
+// int arr[5] = {10,20,30,40,50};
+// cout << arr[1] << endl;
+// cout << arr[3] << endl;
 
 
+// char arr[] ={'H','E','L','L','O'};
+// cout << arr[0] << endl;
 
- 
+// int arr[5] = {10,20,30,40,50};
+// int  n =5;
+// for(int i=0;i<n;i++){
+//     cout << arr[i] << " ";
+// }
+
+
+//--> taking input in array :
+
+// int arr[5];
+// int n =5;
+// for(int i=0;i<n;i++){
+//   cout << "Enter a idexing element for arr" << i << "  ";
+//   cin >> arr[i];
+
+//   cout << endl;   
+// }
+// // print array elements
+// cout << "Array elements are : " << endl;
+// for(int i=0;i<n;i++){
+//   cout << arr[i] << " "; 
+
+// probelm statemnet :--> take a input in array and print double of each element -->
+// int arr[10];
+// int n=10;
+// for(int i=0;i<n;i++){
+//   cout << "Enter a index element for arr " << i << " : ";
+//   cin >> arr[i];
+//   cout << endl;
+// }
+// // print array elements for double
+// cout << "Array elements are : " << endl;
+// for(int i=0;i<n;i++){
+//   arr[i] = arr[i] * 2; // double of each element
+//   cout << arr[i] << " "; 
+// }
+// cout << endl;
+// // print double of each element
+// cout << "Doubled elements are : " << endl;
+// for(int i=0;i<n;i++){
+//   cout << arr[i]*2 << " ";
+// }
+
 }
