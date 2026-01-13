@@ -14,6 +14,28 @@
 
 #include<iostream>
 using namespace std;
+//-->function to print array elements
+void printArray (int arr[], int size){
+    for(int i=0;i<size;i++){
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+//linear search function in array :-->
+// present -- > true
+// Absent --> false
+
+bool linearsearch(int arr[], int size, int target){
+    for(int i=0;i<size;i++){
+        if(arr[i] == target){
+          //found
+            return true;
+        }
+    }
+    // not found
+    return false;
+}
 int main(){
 //    int arr[10];
 //    char drr[9];
@@ -107,4 +129,56 @@ int main(){
 //   cout << arr[i]*2 << " ";
 // }
 
+
+//--> probelem statement : sum of total elements in array
+
+
+//input :  
+// int arr[5];
+// int n;
+// for(int i= 0;i<n;i++){
+//   cout << "Enter a index element for arr " << i << " : ";
+//   cin >> arr[i];
+//   cout << endl;
+// }
+// cout << "Array elements are : " << endl;
+// int sum =0;
+// for(int i=0;i<n;i++){
+//     sum = sum + arr[i];
+// }
+// cout << "print of sum " << sum << " "<< endl;
+
+//--> linear search in array :-->  user input an element to search in array if found print index else print -1
+
+///-->> Array  & functions : --> jab bhai array ko function me pass karte hai to array ka first element ka size pass hota hai .
+
+//--> functiion main logic 
+
+int arr[5] = {10,20,30,40,50};
+int size = 5;
+int target = 110;
+//function call-->
+// printArray(arr,size);
+ bool ans = linearsearch(arr,size,target);
+ if (ans == 1)
+ {
+    cout << "Element found in array :" << endl;
+ }
+ else{
+    cout << "Element not found in array :" << endl;
+ }
+ 
+
+return 0;
+
+
+
+
+
+
+
+
+
 }
+
+
