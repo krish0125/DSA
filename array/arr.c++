@@ -13,29 +13,30 @@
 // creation od Array : 
 
 #include<iostream>
+#include<limits.h>
 using namespace std;
 //-->function to print array elements
-void printArray (int arr[], int size){
-    for(int i=0;i<size;i++){
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-}
+// void printArray (int arr[], int size){
+//     for(int i=0;i<size;i++){
+//         cout << arr[i] << " ";
+//     }
+//     cout << endl;
+// }
 
-//linear search function in array :-->
-// present -- > true
-// Absent --> false
+// //linear search function in array :-->
+// // present -- > true
+// // Absent --> false
 
-bool linearsearch(int arr[], int size, int target){
-    for(int i=0;i<size;i++){
-        if(arr[i] == target){
-          //found
-            return true;
-        }
-    }
-    // not found
-    return false;
-}
+// bool linearsearch(int arr[], int size, int target){
+//     for(int i=0;i<size;i++){
+//         if(arr[i] == target){
+//           //found
+//             return true;
+//         }
+//     }
+//     // not found
+//     return false;
+// }
 int main(){
 //    int arr[10];
 //    char drr[9];
@@ -154,19 +155,33 @@ int main(){
 
 //--> functiion main logic 
 
-int arr[5] = {10,20,30,40,50};
-int size = 5;
-int target = 110;
-//function call-->
-// printArray(arr,size);
- bool ans = linearsearch(arr,size,target);
- if (ans == 1)
- {
-    cout << "Element found in array :" << endl;
- }
- else{
-    cout << "Element not found in array :" << endl;
- }
+// int arr[5] = {10,20,30,40,50};
+// int size = 5;
+// int target = 110;
+// //function call-->
+// // printArray(arr,size);
+//  bool ans = linearsearch(arr,size,target);
+//  if (ans == 1)
+//  {
+//     cout << "Element found in array :" << endl;
+//  }
+//  else{
+//     cout << "Element not found in array :" << endl;
+//  }
+
+// header file for limit of array:-->
+
+// cout<< INT_MAX << endl;
+// cout << INT_MIN << endl;
+
+// --> reverse an array : ---> 
+// ## predefine -->[swap(arr[0], arr[7])]<---that is a predefine function to swap two elements in array
+
+int arr[8] = {1,2,3,4,5,6,7,8};
+
+
+
+
  
 
 return 0;
