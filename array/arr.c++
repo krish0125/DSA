@@ -37,6 +37,13 @@ using namespace std;
 //     // not found
 //     return false;
 // }
+
+//reverse an array function :-->
+
+void reverseArray(int arr[], int size, int left, int right){
+    
+    }
+
 int main(){
 //    int arr[10];
 //    char drr[9];
@@ -174,10 +181,8 @@ int main(){
 // cout<< INT_MAX << endl;
 // cout << INT_MIN << endl;
 
-// --> reverse an array : ---> 
-// ## predefine -->[swap(arr[0], arr[7])]<---that is a predefine function to swap two elements in array
 
-int arr[8] = {1,2,3,4,5,6,7,8};
+
 
 
 

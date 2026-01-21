@@ -85,3 +85,74 @@
 
 
 // 
+
+
+
+// reverse array for even number and odd number logic is clear left is ++ and right is -- so swap is arr[left] , arr[right] --> cod is hear 
+
+// #include<iostream>
+// using namespace std;
+// // using function define
+
+// void reverserprint(int arr[], int size){
+    
+// int left =0;
+// int right = size-1;
+
+// while(left<=right){
+   
+//     swap(arr[left],arr[right]);
+//     left++;
+//     right --;
+//   }
+
+//   //array print
+ 
+//  for(int i=0;i<size;i++){
+//    cout << arr[i] << " ";
+
+// }
+// }
+
+// int main(){
+
+//     int arr[] = {10,20,30,40,50,60,70,80,90};
+//     int size = 9;
+
+// // function call 
+//    reverserprint(arr,size);
+// }
+
+// extreme print in Array :-->
+//  #include<iostream>
+// using namespace std;
+// // using function define
+
+// void reverserprint(int arr[], int size){
+    
+// int left =0;
+// int right = size-1;
+
+// while(left<=right){
+//     if(left == right){
+//         cout << arr[left] << " ";
+//     }
+//     else{
+//         cout << arr[left] << " " ;
+//         cout << arr[right] << " ";
+//     }
+
+//     left++;
+//     right --;
+//   }
+// }
+
+// int main(){
+
+//     int arr[] = {10,20,30,40,50,60,70,80,90};
+//     int size = 9;
+
+// // function call 
+//    reverserprint(arr,size);
+// }
+
