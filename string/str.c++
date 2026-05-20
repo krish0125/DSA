@@ -98,3 +98,55 @@
 //     }
 //     return 0;
 // }
+
+// //[8] -->Finding Index of Substring Using find() Function
+// #include<iostream>
+// #include<string>
+// using namespace std;
+// int main() {
+//     string s = "Hello Java Hello World";
+//     cout << "Print Hello : " << s.find("Hello") << endl;
+//     cout << "Print o : " << s.find("o") << endl;
+
+//     return 0;
+// }
+
+//[9] --> trim() ,ship() , isblank() function in c++ -->
+//trim() → removes spaces from start and end
+//strip() → improved Unicode version of trim
+//isBlank() → checks if string contains only spaces
+//  #include<iostream>
+//  #include<string>
+//  using namespace std;
+//  int main(){
+//         string s1 = "   Hello World   ";
+//         cout << "Original String: '" << s1 << "'" << endl;
+    
+//         // Trim leading and trailing whitespace
+//         s1.erase(0, s1.find_first_not_of(' ')); // Trim leading whitespace
+//         s1.erase(s1.find_last_not_of(' ') + 1); // Trim trailing whitespace
+    
+//         cout << "Trimmed String: '" << s1 << "'" << endl;
+    
+//         // Check if the string is blank
+//         if(s1.empty()) {
+//             cout << "The string is blank." << endl;
+//         } else {
+//             cout << "The string is not blank." << endl;
+//         }
+    
+//         return 0;
+//  }
+
+//[10] --> string name is given to upper case to convert a lower case -->
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     string s1 = "HELLO WORLD";
+//     cout << "Uppercase String: " << s1 << endl;
+//     for(int i = 0; i < s1.length(); i++) {
+//         s1[i] = tolower(s1[i]);
+//     }
+//     cout << "Lowercase String: " << s1 << endl;
+//     return 0;
+// }
